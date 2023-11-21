@@ -56,7 +56,7 @@ public:
 			if (sizeKOM[i] < 20)
 			{
 				cout << KOM[i] << " - " << nameKOM[i] << " |" << " Размеры: " << sizeKOM[i] << "m" << endl;
-				cout << "Потолок не клеим!(Комната маленькая)" << endl << endl;;
+				cout << "Потолок не клеим!(Комната маленькая)" << endl << endl;
 			}
 			if (sizeKOM[i] >= 20)
 			{
@@ -64,7 +64,7 @@ public:
 				cout << "Клеим потолок!(Комната подходит по размеру)" << endl;
 				size[i] = sizeKOM[i];
 				schetchik++;
-				randob = rand() % 5;
+				randob = rand() % 4;
 				cout <<"Название потолка: " << namePotolok[randob]<<" | "<<"Размер потолка: "<< sizeKOM[i]/3<<"m" << endl;
 				price[i]=rand() % 6001 + 3000;
 				cout << "Цена: "<< price[i]<<"руб" << endl << endl;
